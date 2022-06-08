@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+
+    <header>
+        <ion-icon class="icon" name="heart-half-outline">
+            <img src="./images/ICON.svg" alt="icon" width="25" height="25">
+        </ion-icon>
+    </header>
+    <main>
+        <div class="container text-center">
+            <img src="./images/pokemon_logo 1.png" alt="pokemon_logo" width="510" height="220">
+        </div>
+        <div class="container">
+            <form class=" form justify-content space-around d-flex align-items-center mt-3 ">
+                <select class="ps-5 border-3 border-dark fw-bold"
+                    style="border-radius: 7px; width: 180px; height: 35px">
+                    <option value="Gross">Gross</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <input class="ps-5 border-3 border-dark fw-bold" style="border-radius: 7px; width: 180px;height: 35px;"
+                    type="search" placeholder="Search">
+                <select class="ps-5 border-3 border-dark fw-bold"
+                    style="border-radius: 7px; width: 180px; height: 35px" name="" id="">
+                    <option selected>Aa-Zz</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <button class="border-3 border-dark fw-bold"
+                    style="border-radius: 7px; width: 180px; height: 35px;">Buttun</button>
+            </form>
+        </div>
+        <div class="container">
+            <ul class="pokemon-list d-flex flex-wrap justify-content-between mt-5"></ul>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="./js/pokemons.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

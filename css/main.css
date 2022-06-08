@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(236, 185, 0);
+}
+
+.container {
+    width: 1400px;
+    padding: 20px;
+}
+
+.icon {
+    padding: 20ox;
+    margin-top: 20px;
+    margin-left: 1150px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    color: #000000;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+}
